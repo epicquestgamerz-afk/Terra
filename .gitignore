@@ -1,41 +1,72 @@
-# Prerequisites
-*.d
+Secrets & Environment Files
 
-# Compiled Object files
-*.slo
-*.lo
+.env
+*.env
+.env.*
+env.txt
+keys.txt
+api_keys.txt
+secrets.txt
+📜 Logs
+
+logs/
+*.log
+*.log.*
+🏗️ Build Outputs
+
+build/
+dist/
+out/
+bin/
+obj/
+⚙️ C++ Build Files
+
 *.o
 *.obj
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Linker files
-*.ilk
-
-# Debugger Files
-*.pdb
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
 *.exe
 *.out
-*.app
+*.a
+*.lib
+*.dll
+*.so
+*.dylib
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+☕ Java Build Files
 
-# debug information files
-*.dwo
+*.class
+*.jar
+*.war
+target/
+.gradle/
+gradle-wrapper.jar
+🧠 IDE & System Files
+
+.idea/
+.vscode/
+*.suo
+*.user
+*.sln.docstates
+__pycache__/
+*.pyc
+*.pyo
+.DS_Store
+Thumbs.db
+🎮 Large Asset Files
+
+assets/models/
+assets/textures/
+assets/audio/
+assets/video/
+💾 Save Files
+
+saves/
+*.save
+*.sav
+💥 Crash Dumps
+
+*.dmp
+*.crash
+crashlogs
